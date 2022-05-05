@@ -105,7 +105,7 @@ function draw() {
     //pular quando barra de espaço é pressionada
     if(keyDown("space") && trex.y >= windowHeight - 39 || touches.length > 0 || touches.length > 0) {
       jumpSound.play( )
-      trex.velocityY = -20;
+      trex.velocityY = -15;
        touches = [];
     }
     
